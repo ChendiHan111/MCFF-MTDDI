@@ -405,7 +405,7 @@ if __name__=='__main__':
 
     filename = ['Multi-Class-data1\Multi-Class Dataset.csv',
                      'input-features\drug initial embedding representations.csv','input-features\Morgan fingerprint vectors.csv',
-                    'input-features\drug subgraph mean representations.csv','input-features\drug subgraph frequency representations.csv']
+                    'input-features\drug subgraph mean representations.csv','input-features\drug subgraph frequency representations.csv','input-features\extra label vectors.csv']
     
 
     data_list, drugs = get_drugpair_info(filename[0], [], [])
